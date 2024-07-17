@@ -75,3 +75,4 @@ acc0 /= n_trials
 acc1 /= n_trials
 
 print(f"{d_size},{t_train},{t_map},{1 - acc0},{1 - acc1}")
+print(f"{acc0}{acc1}") # type: ignore
